@@ -1,0 +1,14 @@
+$text-directions: (left, center, right, justify);
+$pull-directions: (left, right);
+
+@each $dir in $text-directions {
+  .text-#{$dir} {
+    text-align: $dir;
+  }
+}
+
+@each $pull in $pull-directions {
+  .pull-#{$pull} {
+    float: $pull;
+  }
+}

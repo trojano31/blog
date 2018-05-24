@@ -1,0 +1,19 @@
+$dirs: (l:left, r:right, t:top, b:bottom);
+$spacers: (xs: .25rem, s: .5rem, m: 1rem, l: 1.5rem, xl: 2rem, xxl: 3rem);
+
+@each $dir_name, $dir in $dirs {
+  @each $size_name, $size in $spacers {
+
+    .m#{$dir_name}-#{$size_name} {
+      margin-#{$dir}: $size;
+    }
+
+    .p#{$dir_name}-#{$size_name} {
+      padding-#{$dir}: $size;
+    }
+  }
+
+  .m#{$dir_name}-auto {
+    margin-#{$dir}: auto;
+  }
+}
