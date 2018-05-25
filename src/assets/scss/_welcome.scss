@@ -1,0 +1,37 @@
+.welcome {
+	height: 644px;
+	background: url("../assets/highlighted.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+
+.highlighted {
+	color: $color-white;
+	position: absolute;
+	bottom: 140px;
+	left: 145px;
+}
+
+.avatar {
+	width: 102px; // i;ve added 2px more because of the border
+	height: 102px;
+	border-radius: 50%;
+	border: solid 1px $color-white;
+}
+
+.art-details{
+	max-width: 700px;
+	width: 100%;
+
+	&-tag {
+
+	}
+
+	&-title {
+		color: inherit;
+	}
+
+	&-author-and-date {
+		color: inherit;
+	}
+}
