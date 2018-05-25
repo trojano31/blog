@@ -1,11 +1,11 @@
 html {
-  font-size: $font-size-base;
+	font-size: $font-size-base;
 }
 
 body {
-  line-height: (25  / 16);
-  font-family: $font-default;
+	line-height: (25  / 16);
+	font-family: $font-default;
 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }

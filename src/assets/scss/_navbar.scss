@@ -1,29 +1,29 @@
 .navbar {
-  padding: 65px 0;
-  text-align: center;
+	padding: 65px 0;
+	text-align: center;
 
-  &-title {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 36px;
-    font-family: $font-heading;
-    font-weight: 400;
-    line-height: (48 / 36);
-  }
+	&-title {
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 36px;
+		font-family: $font-heading;
+		font-weight: 400;
+		line-height: (48 / 36);
+	}
 }
 
 .navbar-items {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  padding-top: 35px;
-  font-size: 12px;
-  line-height: (15 / 12);
-  letter-spacing: (5.5/12) * 1em;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	font-size: 12px;
+	line-height: (15 / 12);
+	letter-spacing: (5.5/12) * 1em;
 
-  a {
-    color: inherit;
-    display: inline-block;
-    padding: 0 30px;
-  }
+	a {
+		color: inherit;
+		display: inline-block;
+		padding: 0 30px;
+	}
 }
