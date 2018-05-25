@@ -195,8 +195,7 @@ a {
 .container {
   max-width: 1172px;
   margin: 0 auto;
-  padding: 0 1rem;
-  outline: 1px solid red; }
+  padding: 0 1rem; }
 
 .navbar {
   padding: 65px 0;
@@ -221,3 +220,50 @@ a {
     color: inherit;
     display: inline-block;
     padding: 0 30px; }
+
+.highlighted {
+  height: 644px;
+  background: url("../assets/highlighted.jpg") no-repeat center;
+  background-size: cover;
+  position: relative; }
+
+.author {
+  padding: 50px;
+  background-color: #fff;
+  width: 350px;
+  position: absolute;
+  right: 145px;
+  top: 65px;
+  border-radius: 3px;
+  border: solid 1px #dadada; }
+  .author-img {
+    border-radius: 50%; }
+  .author-name {
+    padding-top: 36px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 36px; }
+  .author-job {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 7px 0 38px 0;
+    letter-spacing: 1px; }
+  .author-description {
+    letter-spacing: 0.5px;
+    width: 224px;
+    height: 174px;
+    color: #2b2b2b; }
+  .author-signature {
+    width: 183px;
+    height: 51px; }
+
+.social {
+  margin-top: 21px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .social-item {
+    font-size: 12px;
+    color: #000; }
