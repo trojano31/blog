@@ -12,3 +12,12 @@ $pull-directions: (left, right);
     float: $pull;
   }
 }
+
+a {
+  text-decoration: none;
+  color: $color-link;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

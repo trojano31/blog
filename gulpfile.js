@@ -1,7 +1,7 @@
 const
-    gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    server = require('gulp-server-livereload');
+    gulp = require("gulp"),
+    sass = require("gulp-sass"),
+    server = require("gulp-server-livereload");
 
 gulp.task("default", ['html', 'sass', 'watch', 'webserver']);
 
@@ -16,7 +16,9 @@ gulp.task('watch', function(){
 //compile
 gulp.task('sass', function(){
    return gulp.src('./src/assets/scss/**/*.scss')
-       .pipe(sass.sync().on('error', sass.logError))
+       .pipe(sass.sync({
+           precision: 8
+       }).on('error', sass.logError))
        .pipe(gulp.dest('./dist/css'));
 });
 
