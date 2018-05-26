@@ -220,6 +220,8 @@ a {
     color: inherit;
     display: inline-block;
     padding: 0 30px; }
+    .navbar-items a:hover {
+      color: #44c0fe; }
 
 .welcome {
   height: 644px;
@@ -228,24 +230,55 @@ a {
   position: relative; }
 
 .highlighted {
+  max-width: 700px;
   color: #fff;
   position: absolute;
   bottom: 140px;
-  left: 145px; }
+  left: 145px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
 
 .avatar {
   width: 102px;
   height: 102px;
   border-radius: 50%;
-  border: solid 1px #fff; }
+  border: solid 1px #fff;
+  margin-right: 30px; }
 
 .art-details {
-  max-width: 700px;
   width: 100%; }
+  .art-details-tag {
+    width: 100px;
+    height: 37px;
+    color: #2b2b2b;
+    border: 10px solid #fff;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 11px;
+    text-transform: uppercase; }
   .art-details-title {
-    color: inherit; }
+    color: inherit;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-size: 36px; }
   .art-details-author-and-date {
-    color: inherit; }
+    color: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+
+.slider {
+  position: absolute;
+  bottom: -72.5px;
+  left: -125.5px; }
+  .slider-item {
+    width: 225px;
+    height: 150px;
+    margin-right: 25px;
+    border-radius: 3px; }
 
 .author {
   padding: 50px;
