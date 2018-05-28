@@ -1,6 +1,7 @@
 .art-details {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 65px;
 
 	&-square {
 		width: 380px;
@@ -33,6 +34,10 @@
 		text-transform: capitalize;
 		line-height: 32px;
 		margin-bottom: 16px;
+
+		&:hover {
+			color: $color-link
+		}
 	}
 
 	&-author-and-date {
@@ -45,6 +50,7 @@
 	&-image-horizontal {
 		height: 360px;
 		width: 665px;
+		margin-bottom: 30px;
 	}
 
 	&-image-square {

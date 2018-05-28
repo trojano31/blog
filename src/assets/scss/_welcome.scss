@@ -46,6 +46,10 @@
 		font-weight: 400;
 		font-family: $font-heading;
 		font-size: 36px;
+
+		&:hover {
+			color: $color-link;
+		}
 	}
 
 	&-author-and-date {

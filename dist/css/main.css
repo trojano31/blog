@@ -269,6 +269,8 @@ a {
     font-weight: 400;
     font-family: "Playfair Display", serif;
     font-size: 36px; }
+    .details-title:hover {
+      color: #44c0fe; }
   .details-author-and-date {
     color: inherit;
     font-size: 12px;
@@ -339,7 +341,8 @@ a {
 
 .art-details {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 65px; }
   .art-details-square {
     width: 380px; }
   .art-details-horizontal {
@@ -364,6 +367,8 @@ a {
     text-transform: capitalize;
     line-height: 32px;
     margin-bottom: 16px; }
+    .art-details-title:hover {
+      color: #44c0fe; }
   .art-details-author-and-date {
     color: inherit;
     font-size: 12px;
@@ -371,7 +376,8 @@ a {
     letter-spacing: 1px; }
   .art-details-image-horizontal {
     height: 360px;
-    width: 665px; }
+    width: 665px;
+    margin-bottom: 30px; }
   .art-details-image-square {
     margin-top: 30px;
     height: 360px;
