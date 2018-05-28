@@ -1,10 +1,11 @@
 .author{
+	margin-top: 65px;
 	padding: 50px;
 	background-color: $color-white;
 	width: 350px;
-	position: absolute;
-	right: 145px;
-	top: 65px;
+	//position: absolute;
+	//right: 145px;
+	//top: 65px;
 	border-radius: 3px;
 	border: solid 1px #dadada;
 
@@ -17,6 +18,7 @@
 		font-family: $font-heading;
 		font-weight: 400;
 		font-size: 36px;
+		line-height: 44px;
 	}
 
 	&-job {
@@ -25,12 +27,13 @@
 		font-weight: 300;
 		padding: 7px 0 38px 0;
 		letter-spacing: 1px;
+		height: 15px;
 	}
 
 	&-description {
 		letter-spacing: 0.5px;
 		width: 224px;
-		height: 174px;
+		height: 171px;
 		color: $color-text
 	}
 
