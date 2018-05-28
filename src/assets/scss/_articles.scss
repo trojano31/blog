@@ -1,0 +1,55 @@
+.art-details {
+	display: flex;
+	flex-direction: column;
+
+	&-square {
+		width: 380px;
+
+	}
+
+	&-horizontal {
+		width: 665px;
+	}
+
+	&-tag {
+		width: 100px;
+		height: 37px;
+		color: $color-text;
+		border: 10px solid $color-tag;
+		border-radius: 3px;
+		background-color: $color-tag;
+		text-align: center;
+		letter-spacing: 5px;
+		font-size: 11px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	&-title {
+		color: inherit;
+		font-weight: 400;
+		font-family: $font-heading;
+		font-size: 24px;
+		text-transform: capitalize;
+		line-height: 32px;
+		margin-bottom: 16px;
+	}
+
+	&-author-and-date {
+		color: inherit;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	&-image-horizontal {
+		height: 360px;
+		width: 665px;
+	}
+
+	&-image-square {
+		margin-top: 30px;
+		height: 360px;
+		width: 380px;
+	}
+}
