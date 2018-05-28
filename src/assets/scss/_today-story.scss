@@ -1,15 +1,30 @@
 .today-story {
-	width: 100%;
 	margin: 230px 0 90px 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	height: 13px;
+	position: relative;
 
-	h4 {
+	&-title {
 		font-weight: 400;
 		font-size: 11px;
 		letter-spacing: 5px;
 		text-transform: uppercase;
+		display: block;
+		top: 0;
+		left: 0;
+		background-color: $color-white;
+		padding: 0 30px;
+		z-index: 1;
+	}
+
+	&:after{
+		content: '';
+		border-top: 1px solid $color-line;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
 	}
 }
