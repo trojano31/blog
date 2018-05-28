@@ -8,29 +8,28 @@ gulp.task("default", ['html', 'sass', 'watch', 'webserver']);
 
 //watch
 gulp.task('watch', function(){
-   gulp.watch('./src/assets/scss/**/*.scss', ['sass']);
-   gulp.watch('./src/**/*.html', ['html']);
+   gulp.watch('./scss/**/*.scss', ['sass']);
+   gulp.watch('./*.html', ['html']);
 });
 
 
 //compile
 gulp.task('sass', function(){
-   return gulp.src('./src/assets/scss/**/*.scss')
+   return gulp.src('./scss/**/*.scss')
        .pipe(sass.sync({
            precision: 8
        }).on('error', sass.logError))
-       .pipe(gulp.dest('./dist/css'));
+       .pipe(gulp.dest('./css'));
 });
 
 gulp.task('html', function(){
-   return gulp.src('./src/**/*.html')
-       .pipe(gulp.dest('./dist'));
+   return gulp.src('./**/*.html');
 });
 
 
 //server
 gulp.task('webserver', function(){
-   gulp.src('./dist')
+   gulp.src('.')
        .pipe(server({
            livereload: true,
            open: true
