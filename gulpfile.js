@@ -17,7 +17,8 @@ gulp.task('watch', function(){
 gulp.task('sass', function(){
    return gulp.src('./scss/**/*.scss')
        .pipe(sass.sync({
-           precision: 8
+           precision: 8,
+           outputStyle: 'expanded'
        }).on('error', sass.logError))
        .pipe(gulp.dest('./css'));
 });
