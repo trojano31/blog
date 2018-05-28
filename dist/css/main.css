@@ -7,6 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+a:hover {
+  color: #44c0fe; }
+
 * {
   margin: 0;
   padding: 0;
@@ -334,6 +337,7 @@ a {
   height: 13px;
   position: relative; }
   .today-story-title {
+    color: inherit;
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 5px;
@@ -381,8 +385,6 @@ a {
     text-transform: capitalize;
     line-height: 32px;
     margin-bottom: 16px; }
-    .art-details-title:hover {
-      color: #44c0fe; }
   .art-details-author-and-date {
     color: inherit;
     font-size: 12px;
@@ -403,6 +405,12 @@ a {
   justify-content: space-between;
   margin-bottom: 35px; }
   .quote-box .big-quote {
+    font-family: "Playfair Display", serif;
+    font-size: 46px;
+    font-weight: 400;
+    width: 350px; }
+  .quote-box .apostrophe {
+    font-size: 64px;
     font-family: "Playfair Display", serif; }
-  .quote-box .apostrophe-end {
-    transform: rotate(180deg); }
+    .quote-box .apostrophe-end {
+      transform: rotate(180deg); }
