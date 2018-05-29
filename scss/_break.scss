@@ -1,4 +1,4 @@
-.today-story {
+.break {
 	margin: 230px 0 90px 0;
 	display: flex;
 	flex-direction: row;
@@ -17,12 +17,11 @@
 		left: 0;
 		background-color: $color-white;
 		z-index: 1;
+		padding-right: 30px;
 
-		&-left {
-			padding-right: 30px;
-		}
 
 		&-right {
+			padding-right: 0;
 			padding-left: 30px;
 		}
 	}

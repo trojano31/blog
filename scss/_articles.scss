@@ -3,21 +3,7 @@
 	flex-direction: column;
 	margin-bottom: 65px;
 
-	&-square {
-		width: 380px;
-
-	}
-
-	&-horizontal {
-		width: 665px;
-	}
-
-	&-horizontal-small {
-		width: 350px;
-	}
-
 	&-tag {
-		//width: 94px;
 		max-width: 140px;
 		height: 37px;
 		margin-bottom: 10px;
@@ -49,48 +35,7 @@
 		letter-spacing: 1px;
 	}
 
-	&-image-horizontal {
-		height: 360px;
-		width: 665px;
-		margin-bottom: 30px;
+	&-image {
+		width: 100%
 	}
-
-	&-image-square {
-		margin-top: 30px;
-		height: 360px;
-		width: 380px;
-	}
-
-	&-image-horizontal-small {
-		height: 230px;
-		width: 350px;
-	}
-}
-
-.quote-box {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 35px;  //CHANGE THIS! IT SHOULD BE 65px (IMG MARGIN = 30)
-
-	.big-quote {
-		font-family: $font-heading;
-		font-size: 46px;
-		font-weight: 400;
-		width: 350px;
-	}
-
-	.apostrophe {
-		font-size: 64px;
-		font-family: $font-heading;
-
-		&-start {
-
-		}
-
-		&-end {
-			transform: rotate(180deg);
-		}
-	}
-
 }

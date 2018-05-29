@@ -45,13 +45,13 @@
 
 .social {
 	margin-top: 21px;
-	width: 140px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 
 	&-item {
+		display: inline-block;
+		width: 20px;
+		line-height: 20px;
 		font-size: 12px;
+		text-align: center;
 		color: $color-heading;
 	}
 }
