@@ -453,8 +453,15 @@ a:hover {
   top: 0;
   left: 0;
   background-color: #fff;
-  padding: 0 30px;
   z-index: 1;
+}
+
+.today-story-title-left {
+  padding-right: 30px;
+}
+
+.today-story-title-right {
+  padding-left: 30px;
 }
 
 .today-story:after {
@@ -478,6 +485,10 @@ a:hover {
 
 .art-details-horizontal {
   width: 665px;
+}
+
+.art-details-horizontal-small {
+  width: 350px;
 }
 
 .art-details-tag {
@@ -522,6 +533,11 @@ a:hover {
   margin-top: 30px;
   height: 360px;
   width: 380px;
+}
+
+.art-details-image-horizontal-small {
+  height: 230px;
+  width: 350px;
 }
 
 .quote-box {
