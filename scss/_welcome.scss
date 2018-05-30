@@ -3,6 +3,7 @@
 	background: url("../img/highlighted.jpg") no-repeat center;
 	background-size: cover;
 	//position: relative;
+	margin-bottom: 230px;
 }
 
 .highlighted {
@@ -14,6 +15,8 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	position: relative;
+	margin-bottom: 200px;
 }
 
 .avatar {
@@ -61,7 +64,8 @@
 }
 
 .slider {
-	margin: 65px 0 0 -262.5px;
+	position: absolute;
+	left: -125px;
 
 	&-item{
 		width: 225px;
