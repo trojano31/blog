@@ -563,7 +563,7 @@ a:hover {
 .art-details-tag {
   max-width: 140px;
   height: 37px;
-  margin: 10px 0;
+  margin-bottom: 10px;
   padding: 10px 4px;
   color: #2b2b2b;
   border-radius: 3px;
@@ -586,14 +586,27 @@ a:hover {
 }
 
 .art-details-author-and-date {
-  color: inherit;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .art-details-image {
   width: 100%;
+}
+
+.banner {
+  background: url("../img/banner.jpg") no-repeat center;
+  background-size: cover;
+  height: 360px;
+  justify-content: center;
+}
+
+.banner-details {
+  align-items: center;
+  justify-content: center;
 }
 
 .quote-box {
@@ -619,4 +632,13 @@ a:hover {
   font-size: 64px;
   position: absolute;
   transform: rotate(180deg);
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.arrows .fa-long-arrow-alt-left {
+  margin-right: 50px;
 }

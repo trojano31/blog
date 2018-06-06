@@ -5,7 +5,7 @@
 	&-tag {
 		max-width: 140px;
 		height: 37px;
-		margin: 10px 0;
+		margin-bottom: 10px;
 		padding: 10px 4px;
 		color: $color-text;
 		border-radius: 3px;
@@ -28,13 +28,27 @@
 	}
 
 	&-author-and-date {
-		color: inherit;
 		font-size: 12px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		font-weight: 700;
+		color: $color-date;
+
 	}
 
 	&-image {
 		width: 100%
+	}
+}
+
+.banner {
+	background: url("../img/banner.jpg") no-repeat center;
+	background-size: cover;
+	height: 360px;
+	justify-content: center;
+
+	&-details {
+		align-items: center;
+		justify-content: center;
 	}
 }
