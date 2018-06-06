@@ -262,7 +262,7 @@ a:hover {
 }
 
 .container {
-  max-width: 1172px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -604,9 +604,45 @@ a:hover {
   justify-content: center;
 }
 
+.banner-flex {
+  margin: 80px 30px;
+}
+
 .banner-details {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 670px;
   align-items: center;
-  justify-content: center;
+}
+
+.pictures {
+  margin-bottom: 60px;
+}
+
+.pictures-item {
+  height: 150px;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.links {
+  margin: 30px 0 100px 0;
+  list-style: none;
+  line-height: 25px;
+}
+
+.links li {
+  margin-right: 50px;
+  display: inline;
+}
+
+.links-item {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.22);
 }
 
 .quote-box {
