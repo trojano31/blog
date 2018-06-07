@@ -1,6 +1,7 @@
 .art-details {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 
 	&-tag {
 		max-width: 140px;
@@ -45,7 +46,7 @@
 	background: url("../img/banner.jpg") no-repeat center;
 	background-size: cover;
 	height: 360px;
-	justify-content: center;
+	justify-content: flex-start;
 
 	&-flex {
 		//display: flex;
