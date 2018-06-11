@@ -2442,7 +2442,7 @@ html {
 }
 
 .quote-box {
-  margin-bottom: 35px;
+  margin: 65px 0;
 }
 
 .quote-box .big-quote {
@@ -2467,6 +2467,7 @@ html {
 }
 
 .arrows {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
