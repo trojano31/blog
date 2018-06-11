@@ -2,21 +2,16 @@
 	height: 644px;
 	background: url("../img/highlighted.jpg") no-repeat center;
 	background-size: cover;
-	//position: relative;
 	margin-bottom: 230px;
 }
 
 .highlighted {
 	max-width: 700px;
 	color: $color-white;
-	//position: absolute;
-	//bottom: 140px;
-	//left: 145px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	position: relative;
-	margin-bottom: 200px;
+	margin-bottom: 65px;
 }
 
 .avatar {
@@ -64,14 +59,9 @@
 }
 
 .slider {
-	position: absolute;
-	left: -125px;
-
+	margin-left: -250px;
 
 	&-item{
-		width: 225px;
-		height: 150px;
-		margin-right: 25px;
 		border-radius: 3px;
 	}
 }

@@ -43,6 +43,7 @@
 }
 
 .banner {
+	margin: 65px 0;
 	background: url("../img/banner.jpg") no-repeat center;
 	background-size: cover;
 	height: 360px;
@@ -61,38 +62,5 @@
 		flex-direction: row;
 		width: 670px;
 		align-items: center;
-	}
-}
-
-
-// to a new file
-
-.pictures {
-	margin-bottom: 60px;
-
-	&-item {
-		height: 150px;
-	}
-}
-
-.margin-zero {
-	margin: 0;
-}
-
-
-.links {
-	margin: 30px 0 100px 0;
-	list-style: none;
-	line-height: 25px;
-
-	li{
-		margin-right: 50px;
-		display: inline;
-	}
-
-	&-item{
-		text-transform: uppercase;
-		letter-spacing: 0.5px;
-		color: $color-link-off;
 	}
 }
