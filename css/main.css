@@ -2174,6 +2174,12 @@ html {
 }
 
 /*# sourceMappingURL=bootstrap-grid.css.map */
+@media (max-width: 993px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
 .wrapper-horizontal {
   display: flex;
   flex-direction: row;

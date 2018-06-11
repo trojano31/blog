@@ -1923,3 +1923,11 @@ html {
 }
 
 /*# sourceMappingURL=bootstrap-grid.css.map */
+
+.desktop-only{}
+
+@media (max-width: 993px) {
+	.desktop-only {
+		display: none !important;
+	}
+}
