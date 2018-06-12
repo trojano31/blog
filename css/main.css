@@ -2226,11 +2226,27 @@ html {
   color: #44c0fe;
 }
 
+@media (max-width: 860px) {
+  .navbar-items {
+    flex-direction: column;
+  }
+  .navbar-items a {
+    padding: 5px;
+  }
+}
+
 .welcome {
   height: 644px;
   background: url("../img/highlighted.jpg") no-repeat center;
   background-size: cover;
   margin-bottom: 230px;
+}
+
+@media (max-width: 960px) {
+  .welcome {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .highlighted {
