@@ -5,12 +5,10 @@
 		font-family: $font-heading;
 		font-size: px2rem(46px);
 		font-weight: 400;
-		//position: relative;
 
 		&:before {
 			content: "“";
 			font-size: 64px;
-			//position: absolute;
 			display: inline-block;
 			top: -30px;
 			left: -30px;
@@ -21,6 +19,18 @@
 			font-size: px2rem(64px);
 			position: absolute;
 			transform: rotate(180deg);
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	.quote-box {
+		.big-quote {
+			font-size: px2rem(36px);
+
+			&:after {
+				top: 80px;
+			}
 		}
 	}
 }

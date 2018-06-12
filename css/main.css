@@ -2233,6 +2233,9 @@ html {
   .navbar-items a {
     padding: 5px;
   }
+  .navbar {
+    padding: 20px;
+  }
 }
 
 .welcome {
@@ -2240,13 +2243,6 @@ html {
   background: url("../img/highlighted.jpg") no-repeat center;
   background-size: cover;
   margin-bottom: 230px;
-}
-
-@media (max-width: 960px) {
-  .welcome {
-    display: flex;
-    align-items: center;
-  }
 }
 
 .highlighted {
@@ -2307,6 +2303,17 @@ html {
 
 .slider-item {
   border-radius: 3px;
+}
+
+@media (max-width: 960px) {
+  .welcome {
+    display: flex;
+    align-items: center;
+    height: 300px;
+  }
+  .details-title {
+    font-size: 1.5rem;
+  }
 }
 
 .author {
@@ -2486,6 +2493,15 @@ html {
   font-size: 4rem;
   position: absolute;
   transform: rotate(180deg);
+}
+
+@media (max-width: 960px) {
+  .quote-box .big-quote {
+    font-size: 2.25rem;
+  }
+  .quote-box .big-quote:after {
+    top: 80px;
+  }
 }
 
 .arrows {
