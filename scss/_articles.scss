@@ -13,7 +13,7 @@
 		background-color: $color-tag;
 		letter-spacing: 5px;
 		text-align: center;
-		font-size: 11px;
+		font-size: px2rem(11px);
 		text-transform: uppercase;
 		font-weight: 700;
 	}
@@ -22,14 +22,14 @@
 		font-family: $font-heading;
 		color: inherit;
 		font-weight: 400;
-		font-size: 24px;
+		font-size: px2rem(24px);
 		text-transform: capitalize;
 		line-height: 32px;
 		margin-bottom: 16px;
 	}
 
 	&-author-and-date {
-		font-size: 12px;
+		font-size: px2rem(12px);
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: 700;
@@ -60,7 +60,6 @@
 		color: $color-white;
 		display: flex;
 		flex-direction: row;
-		width: 670px;
 		align-items: center;
 	}
 }

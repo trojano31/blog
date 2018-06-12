@@ -3,7 +3,7 @@
 
 	.big-quote {
 		font-family: $font-heading;
-		font-size: 46px;
+		font-size: px2rem(46px);
 		font-weight: 400;
 		//position: relative;
 
@@ -18,23 +18,9 @@
 
 		&:after {
 			content: "“";
-			font-size: 64px;
+			font-size: px2rem(64px);
 			position: absolute;
 			transform: rotate(180deg);
 		}
 	}
-
-	//.apostrophe {
-	//	font-size: 64px;
-	//	font-family: $font-heading;
-	//
-	//	&-start {
-	//
-	//	}
-	//
-	//	&-end {
-	//		transform: rotate(180deg);
-	//	}
-	//}
-
 }
