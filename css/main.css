@@ -2353,7 +2353,7 @@ html {
   justify-content: space-between;
   height: 13px;
   position: relative;
-  margin: 155px 0 95px 0;
+  margin: 125px 0 95px 0;
 }
 
 .break-title {
@@ -2388,6 +2388,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 30px 0;
 }
 
 .art-details-tag {
@@ -2436,7 +2437,7 @@ html {
 }
 
 .banner-flex {
-  margin: 80px 30px;
+  padding: 30px;
 }
 
 .banner-details {
@@ -2447,7 +2448,7 @@ html {
 }
 
 .quote-box {
-  margin: 65px 0;
+  margin: 30px 0;
 }
 
 .quote-box .big-quote {
@@ -2487,6 +2488,7 @@ html {
 
 .pictures-item {
   height: 150px;
+  margin: 10px 0;
 }
 
 .margin-zero {
